@@ -3,11 +3,20 @@
   <head>
     <title>Credit Card Verification</title>
     <link rel="icon" href="images/verified_cc_favicon.png" type="image/png" sizes="32x32">
+    <style>
+      #VerifyCCForm{
+        height: 75px;
+        width: 1000px;
+        background-image: url("images/verified_checkmark.png");
+        background-color: #ededed;
+        background-size: 200px 75px;
+      }
+    </style>
   </head>
   <body>
     <form id="VerifyCCForm" onsubmit="return verifyCC()">
 
-    <p>Enter CC Number:</p>
+    <h2>Enter CC Number:</h2>
 
       <select id="ccType">
         <option value="0">Select Credit Card Type</option>
